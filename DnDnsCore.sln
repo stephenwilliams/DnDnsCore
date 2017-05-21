@@ -1,16 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31F51160-43E6-44A7-A264-3C0F88E5361E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40B1DDEE-94DD-4187-B26B-7690C32D4426}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0FA117D-5AEA-406E-8259-323F511FBCDA}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnDnsCore", "src\DnDnsCore\DnDnsCore.xproj", "{C4A74BC2-EAB7-48BD-A110-A094ADDFC662}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{136F11BB-8459-4929-A5C0-35120512EC7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDnsCore", "src\DnDnsCore\DnDnsCore.csproj", "{0E4542B3-5949-428A-9E68-9DEA88F74611}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +21,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4A74BC2-EAB7-48BD-A110-A094ADDFC662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4A74BC2-EAB7-48BD-A110-A094ADDFC662}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4A74BC2-EAB7-48BD-A110-A094ADDFC662}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4A74BC2-EAB7-48BD-A110-A094ADDFC662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4542B3-5949-428A-9E68-9DEA88F74611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4542B3-5949-428A-9E68-9DEA88F74611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4542B3-5949-428A-9E68-9DEA88F74611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4542B3-5949-428A-9E68-9DEA88F74611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C4A74BC2-EAB7-48BD-A110-A094ADDFC662} = {31F51160-43E6-44A7-A264-3C0F88E5361E}
+		{0E4542B3-5949-428A-9E68-9DEA88F74611} = {136F11BB-8459-4929-A5C0-35120512EC7B}
 	EndGlobalSection
 EndGlobal
